@@ -1,0 +1,56 @@
+/* BanglaPay Gateway — Checkout Styles */
+
+.banglapay-checkout-button {
+    margin-top: 10px;
+}
+
+.banglapay-pay-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+    border: none;
+}
+
+.banglapay-pay-btn:hover {
+    opacity: 0.88;
+}
+
+/* bKash branding */
+.banglapay-checkout-button--banglapay_bkash .banglapay-pay-btn {
+    background-color: #e2136e;
+    color: #fff;
+}
+
+/* Nagad branding */
+.banglapay-checkout-button--banglapay_nagad .banglapay-pay-btn {
+    background-color: #ed1c24;
+    color: #fff;
+}
+
+/* Rocket branding */
+.banglapay-checkout-button--banglapay_rocket .banglapay-pay-btn {
+    background-color: #8b1a8b;
+    color: #fff;
+}
+
+/* Rocket transaction ID field */
+#banglapay_rocket-rocket-form .form-row label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 4px;
+}
+
+#banglapay_rocket-rocket-form input.input-text {
+    width: 100%;
+    max-width: 340px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}

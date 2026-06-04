@@ -1,0 +1,25 @@
+/* BanglaPay Gateway — Admin Styles */
+
+.banglapay-admin-wrap h1 {
+    margin-bottom: 16px;
+}
+
+.banglapay-admin-wrap .nav-tab-wrapper {
+    margin-bottom: 0;
+}
+
+.banglapay-tab-content {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-top: none;
+    padding: 24px;
+}
+
+.banglapay-tab-content h2 {
+    margin-top: 0;
+}
+
+.banglapay-tab-content pre {
+    white-space: pre-wrap;
+    word-break: break-all;
+}
